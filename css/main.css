@@ -1,0 +1,320 @@
+/* ----- Background ----- */
+body {
+	max-width: 960px;
+	background-attachment: fixed;
+	background-color: black;
+	background-image: none;
+	background-position: center center;
+	background-repeat: no-repeat;
+	font: 100%/1.5 "Trebuchet MS", Arial, Helvetica;
+	margin: 0 auto;
+}
+
+/* -------- Wrapper --------- */
+#wrapper {
+	width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+	background: black;
+}
+
+/* -------- Headings -------- */
+h1 {
+	text-align: center;
+	color: white;
+	text-shadow: 0.3125em 0.3125em 0.3125em white;
+	font-weight: normal;
+	font-size: 2em;
+}
+h2 {
+	text-align: center;
+	color: gray;
+	text-shadow: 0.3125em 0.3125em 0.3125em gray;
+	font-weight: normal;
+	font-size: 1.5em;
+}
+h3 {
+	text-align: center;
+	color: white;
+	text-shadow: 0.3125em 0.3125em 0.3125em white;
+	font-weight: normal;
+	font-size: 1.5em;
+}
+h4 {
+	text-align: center;
+	color: gray;
+	text-shadow: 0.3125em 0.3125em 0.3125em gray;
+	font-weight: normal;
+	font-size: 1em;
+}
+
+/* ------- Navigation ------- */
+#nav  ul{
+	width: 31.25%;
+	margin: 0 auto;
+	background: black;
+	list-style-type: none;
+	padding: 0;
+	overflow: hidden;
+}
+#nav  li {
+	width: 33%;
+	background: white;
+	float: left;
+}
+#nav a {
+	color: black;
+	text-decoration: none;
+	background: white;
+	display: block;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;	
+}
+#nav a:hover {
+	color: white;
+	background: black;
+}
+#paralink {
+	color: gray;
+}
+#paralink:hover {
+	color: white;
+}
+#totop1 a {
+	display: block;
+	margin: 25px auto;
+	text-align: center;
+	color: gray;
+}
+#totop2 a {
+	display: block;
+	margin: 25px auto;
+	text-align: center;
+	color: gray;
+}
+
+/* ------- Image ------ */
+#main-image {
+	border: 5px solid white;
+	width: 80%;
+	display: block;
+	margin: 0 auto;
+	overflow: hidden;
+	-moz-box-shadow: 0.3125em 0.3125em 0.3125em gray;
+	-webkit-box-shadow: 0.3125em 0.3125em 0.3125em gray;
+	box-shadow: 0.3125em 0.3125em 0.3125em gray;
+}
+#main-image img {
+	max-width: 100%;
+}
+
+/* ------ Gallery ----- */
+#gallery-pix {
+	width: 55%;
+	display: block;
+	margin: 0 auto;
+}
+#gallery-pix ul {
+	list-style-type: none;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 20px;
+}
+#gallery-pix  li {
+	float: left;
+	width: 43%;
+	margin: 0 auto;
+	margin-left: 25px;
+	margin-bottom: 25px;
+}
+#gallery-pix a {
+	border: 0.3125em solid white;
+	display: block;
+	outline: 0;
+	margin: 0 auto;
+	-moz-box-shadow: 0.3125em 0.3125em 0.3125em gray;
+	-webkit-box-shadow: 0.3125em 0.3125em 0.3125em gray;
+	box-shadow: 0.3125em 0.3125em 0.3125em gray;
+	overflow: hidden;
+}
+#gallery-pix img {
+	max-width: 100%;
+}
+#gallery-pix ul li a:visited {
+	border-color: white;
+}
+#gallery-pix ul li a:hover {
+	border-color: grey;
+}
+#gallery-pix ul li a:active {
+	border-color: blue;
+}
+	
+/* ---- Paragraphs ---- */
+#para1 {
+	text-align: left;
+	width: 70%;
+	margin: 25px auto;
+	color: gray;
+	font-weight: normal;
+	font-size: 1em;
+}
+#para2 {
+	text-align: left;
+	width: 70%;
+	margin: 25px auto;
+	color: gray;
+	font-weight: normal;
+	font-size: 1em;
+}
+#para3 {
+	text-align: left;
+	width: 70%;
+	margin: 25px auto;
+	color: gray;
+	font-weight: normal;
+	font-size: 1em;
+}
+
+/* --- Ordered List --- */
+div ol {
+	display: block;
+	width: 15.625%;
+	margin: 0 auto;
+}
+ol li {
+	font size: 0.8em;
+	color: gray;
+}
+
+/* ------- Table ------- */
+table {
+	margin: 0 auto;
+	border: 0.3125em solid white;
+	border-collapse: collapse;
+}
+table th {
+	background: gray;
+	color: white;
+	padding: 0.625em;
+	border: 1px solid white;
+}
+table td {
+	background: silver;
+	color: black;
+	text-align: center;
+	border: 1px solid white;
+	padding: 0.3125em;
+}
+
+/* ------- Form ------- */
+#contact-div {
+	font size: .8em;
+	text-align: center;
+	color: black;
+	border: 5px solid white;
+	display: block;
+	width: 50%;
+	height: 900px;
+	background-color: gray;
+	margin: 0 auto;
+}
+label {
+	display: block;
+	text-align: left;
+	margin-left: 5%;
+}
+input[type=text] {
+	margin: 10px auto;
+	background: silver;
+	width: 90%;
+}
+#regarding {
+	width: 90%;
+	background: silver;
+}
+textarea {
+	margin: 25px auto;
+	background: silver;
+	width: 90%;
+}
+input:focus {
+	background: white;
+}
+textarea:focus {
+	background: white;
+}
+#regarding:focus {
+	background: white;
+}
+
+/* ----- Footer ----- */
+#footer p {
+	text-align: center;
+	margin: 0 auto;
+	color: gray;
+	font-weight: normal;
+	font-size: 1em;
+}
+
+/* ----- Media Queries ----- */
+
+	/* Tablet Portrait to Standard 960px (devices and browsers) */
+	@media screen and (min-width: 768px) and (max-width:959px) {
+		#wrapper {background-color: #000000;}
+		#nav ul {background: #000000;}
+		h1 {color: #ffffff;}
+		h1 {text-shadow: 0.3125em 0.3125em 0.3125em #ffffff;}
+		h3 {color: #ffffff;}
+		h3 {text-shadow: 0.3125em 0.3125em 0.3125em #ffffff;}
+		#gallery-pix ul {
+			margin: 0 auto;
+		}
+		#gallery-pix img {
+				display: block;
+				width: 100%;
+				margin: 0 auto;
+		}
+	}
+	/* Mobile Landscape to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		#wrapper {background-color: #000000;}
+		#nav ul {
+			margin: 0 auto;
+			background: silver;
+			}
+		#nav li {
+			float: none;
+			width: 100%;
+			margin: 0 auto;
+			}
+		#gallery-pix img {
+			display: block;
+			width: 100%;
+			margin: 0 auto;
+		}
+		h2 {color: #ffffff;}
+		h2 {text-shadow: 0.3125em 0.3125em 0.3125em #ffffff;}
+		h4 {color: #ffffff;}
+		h4 {text-shadow: 0.3125em 0.3125em 0.3125em #ffffff;}
+	}
+	
+	/* Mobile Portrait to Mobile Landscape (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+		#wrapper {background-color: #000000;}
+		#nav li {
+			float: none;
+			width: 100%;
+			}
+		#main-image {display: none;}
+		#gallery-pix img {
+				display: block;
+				width: 100%;
+				margin: 0 auto;
+		}
+		h2 {color: #ffffff;}
+		h2 {text-shadow: 0.3125em 0.3125em 0.3125em #ffffff;}
+		h4 {color: #ffffff;}
+		h4 {text-shadow: 0.3125em 0.3125em 0.3125em #ffffff;}
+	}
